@@ -95,6 +95,19 @@ public class Registerpage
 		mobileno.sendKeys(mobile);
 	}
 	
-	
+    public void fillcaptcha() throws Exception
+    {
+    	Thread.sleep(5000);
+    }
+    
+    public void clickterms()
+    {
+    	terms.click();
+    }
+    
+    public void clicksubmit()
+    {
+    	verifyandregister.click();
+    }
 
 }
