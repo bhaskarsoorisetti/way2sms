@@ -1,3 +1,5 @@
+//checking of clone
+
 package pratice;
 
 import java.io.File;
